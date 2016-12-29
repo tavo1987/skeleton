@@ -1,0 +1,38 @@
+/*
+    =====================================================
+        SETTINGS
+    =====================================================
+ */
+
+//BREAKPOINTS
+$breakpoints-sp :(
+   'mobile' : 40em,
+   'tablet' : 48em,
+   'desktop': 60em,
+   'hd'     : 75em,
+   )!default;
+
+// MAIN COLORS
+$base-color:   #003C7D;
+$secondary-color: #333333;
+
+// GENERAL COLORS
+$white:     #fff;
+$black:     #000;
+$gray: #EFEFEF;
+
+//FONT COLORS
+$font-color:      #000000;
+$title-color:     #000000;
+$link-color:      $base-color;
+$link-color-hover: darken($base-color,10);
+
+//FONT
+$font-size:     16;
+$font-family:   'Lato',arial, sans-serif;
+
+//MAX-WIDTH
+$max-width:      75rem;
+
+//BORDER RADIUS
+$radius:        3px;

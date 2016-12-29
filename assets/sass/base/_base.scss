@@ -1,0 +1,82 @@
+/*
+    =====================================================
+        GENERAL STYLES
+    =====================================================
+ */
+
+*, *:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: $font-size + px;
+}
+
+body{
+    font-family: $font-family;
+    color: $font-color;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: $base-color;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:$font-family;
+    margin-bottom: 0.75rem;
+}
+
+h1{
+
+    @include fontSize(30);// valor  en pixeles
+}
+
+h2{
+
+    @include fontSize(26);// valor  en pixeles
+}
+
+h3{
+    @include fontSize(22);// valor  en pixeles
+}
+
+h4{
+    @include fontSize(18);// valor  en pixeles
+}
+
+h5{
+    @include fontSize(16);// valor  en pixeles
+}
+
+h6{
+    @include fontSize(14);// valor  en pixeles
+}
+
+p{
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    font-size: $font-size;
+}
+
+article{
+    text-align: left;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+ul,ol{
+    margin: 0 0 1rem 0;
+    padding:0 0 0 2rem;
+}
+
+.bg-basecolor{
+    background-color:$base-color;
+}
