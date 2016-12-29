@@ -1,4 +1,4 @@
 
 jQuery(document).ready(function() {
-    console.log('done!!!');
+    console.log('ready!!!');
 });
