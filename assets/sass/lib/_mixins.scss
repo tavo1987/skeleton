@@ -5,12 +5,7 @@
         MIXINS
     =====================================================
 /*
-* Fácil de usar: las variables a usar están en settings.scss y son:
-    'mobile' : '28.75em',
-    'tablet': '48em',
-    'desktop': '60em',
-    'full-hd': '75em'
-* Y el uso va como sigue:
+* Example:
 .foo {
     color: red;
     @include media-query('mobile') {
