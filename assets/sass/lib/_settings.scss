@@ -6,10 +6,11 @@
 
 //BREAKPOINTS
 $breakpoints-sp :(
-   'mobile' : 40em,
+   'mobile' : 28.75em,
+   'smartphone' : 40em,
    'tablet' : 48em,
-   'desktop': 60em,
-   'hd'     : 75em,
+   'desktop': 62.5em,
+   'hd'     : 100em,
    )!default;
 
 // MAIN COLORS
